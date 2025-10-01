@@ -2,6 +2,9 @@
 
 Proyek ini bertujuan untuk membangun sistem **Named Entity Recognition (NER)** yang dapat mengekstraksi informasi penting dari laporan masyarakat terkait **masalah infrastruktur publik**. Model NER yang dilatih kemudian akan diintegrasikan ke dalam aplikasi web pelaporan, sehingga laporan pengguna dapat secara otomatis dipisahkan menjadi beberapa kategori entitas: lokasi, jenis infrastruktur, jenis masalah, waktu, keterangan tambahan, dan tingkat kerusakan.
 
+Full Model NER tersedia di Hugging Face:  
+[https://huggingface.co/Ysfii-Dev/indobert-ner-citizen-reports](https://huggingface.co/Ysfii-Dev/indobert-ner-citizen-reports)
+
 ---
 
 ## 🚀 Fitur Utama
@@ -52,7 +55,7 @@ ner_proyek/
 Clone repo ini dan install dependensi:
 
 ```bash
-git clone https://github.com/username/ner-infra-proyek.git
+git clone https://github.com/Ysfii-Dev/indobert-ner-citizen-reports.git
 cd ner-infra-proyek
 pip install -r requirements.txt
 ```
